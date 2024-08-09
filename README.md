@@ -1,6 +1,6 @@
 # dice_roller
 
-A new Flutter project.
+THIS IS A BASIC DICE ROLLER APP.
 
 ## Getting Started
 
