@@ -1,21 +1,18 @@
 import 'package:dice_roller/gradient_container';
 import 'package:flutter/material.dart';
 
-class KApp extends StatelessWidget {
-  const KApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
+void main() {
+  runApp(
+    const MaterialApp(
       home: Scaffold(
         //backgroundColor: Colors.black54, // 0-9 a b c d e f
         body: GradientContainer(
-          Color.fromARGB(255, 80, 2, 38),
-          Color.fromARGB(255, 69, 15, 122),
+          Color.fromARGB(255, 220, 233, 174),
+          Color.fromARGB(255, 150, 239, 237),
         ),
       ),
-    );
-  }
+    ),
+  );
 }
 
 Widget myCustomText(String msg) {
